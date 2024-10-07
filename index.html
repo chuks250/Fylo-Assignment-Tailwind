@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./build/output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <article class="inline-block">
+      <!-- nav list session start -->
+      <header class="flex justify-between m-7 items-end">
+        <div class="w-24 md:w-28 lg:w-36">
+          <img class="cursor-pointer" src="./images/logo.svg" alt="logo" />
+        </div>
+        <nav>
+          <ul class="flex gap-4 md:text-lg lg:text-4xl font-serif text-sm">
+            <li class="hover:text-lime-300 cursor-pointer">Features</li>
+            <li class="hover:text-lime-300 cursor-pointer">Team</li>
+            <li class="hover:text-lime-300 cursor-pointer">Sign Up</li>
+          </ul>
+        </nav>
+      </header>
+      <!-- nav list session end -->
+      <!-- about file start -->
+      <div
+        class="grid mt-5 justify-center md:grid-cols-2 items-center md:gap-5"
+      >
+        <figure>
+          <img
+            class="w-[450px] items-center p-10 md:w-[600px] md:order-last"
+            src="./images/illustration-1.svg"
+            alt="illustration-1"
+          />
+        </figure>
+
+        <div
+          class="text-center p-5 w-auto md:order-first md:text-left items-center lg:place-content-around md:mt-10"
+        >
+          <h2 class="font-bold text-2xl md:text-3xl">
+            All your files in one secure location, accessible anywhere
+          </h2>
+          <p class="text-base pt-5">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers
+          </p>
+          <!-- btn function -->
+          <div class="grid justify-center md:flex md:gap-2">
+            <input
+              class="border-black p-2 text-left rounded-md border-2 sm:w-[300px] mt-5 placeholder:italic"
+              type="text"
+              placeholder="Enter your email"
+            />
+            <button
+              class="bg-[#3065F8] text-slate-100 p-2 rounded-md font-semibold mt-4 sm:w-[300px]"
+            >
+              Get Started
+            </button>
+          </div>
+          <!-- btn function -->
+        </div>
+      </div>
+      <!-- about file end -->
+
+      <div
+        class="grid justify-center md:grid-cols-2 mt-20 pt-20 bg-[#F8F8FE] md:gap-2 md:items-center pb-10"
+      >
+        <!-- illustration-2 img -->
+        <figure>
+          <img
+            class="w-[450px] items-center p-10 md:w-[600px] md:order-last lg:w-[600px]"
+            src="./images/illustration-2.svg"
+            alt="illustration-2"
+          />
+        </figure>
+        <!-- illustration-2 img -->
+        <div
+          class="text-center p-5 w-auto md:order-first md:text-left items-center"
+        >
+          <h2 class="font-bold text-2xl md:text-3xl">
+            Stay productive wherever you are
+          </h2>
+          <div class="text-left text-lg">
+            <p class="text-base pt-5">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p class="text-base pt-5">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+          </div>
+          <!-- sub-head-illustration-2 -->
+          <div
+            class="mt-[3rem] flex underline justify-center text-[#3DA08F] underline-offset-8 items-center cursor-pointer"
+          >
+            <h1 class="font-medium">See how fylo works</h1>
+            <span>
+              <img class="w-7" src="./images/icon-arrow.svg" alt="icon-arrow" />
+            </span>
+          </div>
+          <!-- sub-head-illustration-2 -->
+          <!-- quotes-illustration-2 -->
+          <div
+            class="block items-start mt-10 border border-solid rounded-md shadow-xl p-5 m-7"
+          >
+            <div class="">
+              <img class="" src="./images/icon-quotes.svg" alt="icon-quotes" />
+            </div>
+            <p class="text-left font-serif text-base mt-5">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="flex gap-2 items-center mt-5">
+              <img
+                class="rounded-full w-10 hover:animate-pulse transition-all ease-in duration-150"
+                src="./images/avatar-testimonial.jpg"
+                alt="avatar-testimonial"
+              />
+              <div class="text-left">
+                <h1 class="font-semibold text-base">Kyle Burton</h1>
+                <p class="text-xs font-normal">Founder & CEO ,Huddle</p>
+              </div>
+            </div>
+          </div>
+          <!-- quotes-illustration-2 -->
+        </div>
+      </div>
+      <div class="grid md:grid-cols-2 bg-[#585989] text-slate-50">
+        <div class="text-center pt-14 p-8">
+          <p class="text-xl font-bold">Get early access today</p>
+          <p class="text-base mt-2">
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </div>
+        <div class="grid justify-center">
+          <input
+            class="p-2 text-left rounded-md mt-5 placeholder:italic w-[350px]"
+            type="text"
+            placeholder="example@example.com"
+          />
+          <button
+            class="bg-[#3065F8] text-slate-100 p-2 rounded-md font-normal font-sans mt-4 w-[350px]"
+          >
+            Get Started For Free
+          </button>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
